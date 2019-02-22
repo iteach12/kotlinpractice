@@ -3,6 +3,8 @@ fun main(args: Array<String>) {
     println(makeMessage1(2))
     println(makeMessage2(1))
     println(makeMessage2(2))
+
+    println(helloworld(10))
 }
 
 fun makeMessage1(msgType: Int) : String{
@@ -10,3 +12,7 @@ fun makeMessage1(msgType: Int) : String{
 }
 
 fun makeMessage2(msgType: Int) = if (msgType == 1 ) "날씨 좋죠?" else "참 맑군요!!"
+
+fun helloworld(a:Int):Int{
+    return a+1
+}
